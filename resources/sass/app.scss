@@ -1,0 +1,120 @@
+body {
+    background-image: url('../../public/images/gray-abstract-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar-brand:hover{
+    color: rgb(175, 175, 72);
+    transform: translateY(-3px);
+    transition: all 0.2s ease-in-out;
+}
+
+.sombra {
+    box-shadow: 8px 8px 11px rgba(0, 0, 0, 0.3);
+}
+
+.transicion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.transicion:hover {
+    text-decoration: none;
+    color: rgb(175, 175, 72);
+    transform: translateY(-3px);
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+/* -------------------------------------------------- */
+
+.animation-moveUp {
+    opacity: 0;
+}
+
+.animation-moveUp.show {
+	position: relative;
+    animation: moveUp 0.8s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+.my-link {
+    color: rgb(175, 175, 72);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.my-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.my-link-light {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.my-link-light:hover {
+    color: rgb(175, 175, 72);
+    text-decoration: none;
+}
+
+.animation-appear {
+    opacity: 0;
+}
+
+.animation-appear.show {
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes moveUp {
+    from {
+        bottom: -30px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';

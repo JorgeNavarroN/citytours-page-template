@@ -1,3 +1,14 @@
+## Imagenes previas de la platilla:
+
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/5cf56819-8e4f-40c5-afb8-ccf7dea86276" width="700"></a></p>
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/8d04a206-0cb2-4670-8630-2b924c3b1546" width="700"></a></p>
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/921af4e1-39c3-4d8e-b450-7958e9c3cf27" width="700"></a></p>
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/c9c8f810-ef1e-4b4e-bbd3-3ef5364af561" width="700"></a></p>
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/d20fd426-6ecc-4194-b841-b356a16fcc9c" width="700"></a></p>
+<p align="center"><img src="https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/e6fa650d-964a-4577-81a3-f966b5893952" width="700"></a></p>
+
+## Realizado con:
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,8 +75,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-Imagenes previas de la platilla:
-
-<p align="center">![image](https://github.com/JorgeNavarroN/citytours-page-template/assets/78452601/dd5bfddd-80f6-49d1-96dc-57a0cdfafa6f)
-</p>
